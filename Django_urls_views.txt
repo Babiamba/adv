@@ -1,0 +1,23 @@
+Apps views.py
+
+from django.shortcuts import render
+
+def product_page(request):
+    return render(request, 'product.html')
+
+Po to reikia sukurti html faila, templates direktorijoje
+
+urls.py
+
+Irasyti FUNKCIJOS is views.py varda ir ja importuoti
+from django.contrib import admin
+from django.urls import path
+
+from orders.views import orders_page
+from products.views import product_page
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', orders_page),
+    path('prod', product_page),
+]

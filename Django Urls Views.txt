@@ -1,0 +1,3 @@
+Kiekvienam apps reikia sukurti savo urls, o po to juos perkelti i settings/urls
+Tai apps -> views -> urls, o po to viska -> settings/urls
+I settings irasyti apps pavadinima, kad importuotu

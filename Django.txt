@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=cBaznbVrlWU&list=PL3aaklOBGuJmxk9mrsbbWd45WYFyOWfLc&index=2
+
+Kategorijos idejimas i kita modeli - 12.30 min
+Kad viena lentele rodytu i kita, reikia naudoti ForeignKey
